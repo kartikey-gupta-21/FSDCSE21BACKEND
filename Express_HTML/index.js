@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
         } else {
             res.send(data);
         }
-    });
+   });
 });
 app.get('/about', (req, res) => {
     fs.readFile('./pages/about.html', 'utf-8', (err, data) => {
